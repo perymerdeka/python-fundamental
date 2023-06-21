@@ -1,0 +1,6 @@
+print('Menghitung luas segitiga')
+print('==============================')
+alas = input('masukan alas: ')
+tinggi = input('masukan tinggi: ')
+L = 0.5 * int(alas) * int(tinggi)
+print('Luas segitiga dengan alas: {} dan tinggi: {} adalah {}'.format(alas, tinggi, L))
